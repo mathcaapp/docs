@@ -4,7 +4,7 @@ Welcome to the MathCA app documentation repository! This repository houses compr
 
 ## About MathCA
 
-MathCA, short for "Math Cooking Assistant," is a versatile app designed to elevate your mathematics cooking experience. Whether you're a seasoned chef or just starting your culinary journey, MathCA offers a range of features and resources to make your time in the kitchen more enjoyable and rewarding.
+MathCA, short for "Math Cooking Assistant," is a versatile app designed to elevate your mathematics cooking experience. Whether you're a seasoned chef or just starting your culinary journey, MathCA offers a range of features and resources to make your time cooking mathematics more enjoyable and rewarding.
 
 ## Accessing the Documentation
 

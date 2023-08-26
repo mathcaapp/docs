@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: MathCA Docs
+description: MathCA, short for "Math Cooking Assistant," is a versatile app designed to elevate your mathematics cooking experience. Whether you're a seasoned chef or just starting your culinary journey, MathCA offers a range of features and resources to make your time cooking mathematics more enjoyable and rewarding.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://docs.mathca.app
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
