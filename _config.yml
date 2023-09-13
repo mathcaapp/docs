@@ -1,8 +1,95 @@
 title: MathCA Docs
 description: MathCA, short for "Math Cooking Assistant," is a versatile app designed to elevate your mathematics cooking experience. Whether you're a seasoned chef or just starting your culinary journey, MathCA offers a range of features and resources to make your time cooking mathematics more enjoyable and rewarding.
-theme: just-the-docs
 
 url: https://docs.mathca.app
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# URLs
+baseurl: ""
+url: ""
+permalink: pretty
+
+# Site settings
+logo: "/assets/mathca-logo.svg"
+favicon_ico: "assets/mathca.ico"
+
+# theme customizations
+theme: just-the-docs
+color_scheme: light-theme
+
+callouts:
+  warning:
+    title: 
+    en: Warning
+    es: Advertencia
+    color: red
+
+
+# Aux links for the upper right navigation
+aux_links:
+  "MathCA Website": 
+    - "https://www.mathca.app"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
+# Search
+search_enabled: true
+
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false
+
+# Footer
+footer_navigation:
+  previous:
+    en: Previous
+    es: Anterior
+  next:
+    en: Next
+    es: Siguiente
+
+# Localizations
+languages: ["en", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+language_labels:
+  en: English
+  es: Español
+# We disable sourcemaps, otherwhise i18n via polyglot leads to broken styles compiled from scss
+# See <https://github.com/untra/polyglot#compatibility>
+sass:
+  sourcemap: never
+
+plugins:
+  - jekyll-responsive-image
+
+responsive_image:
+  template: _includes/picture.html
+  sizes:
+    - width: 320
+    - width: 480
+    - width: 800

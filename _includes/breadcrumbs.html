@@ -1,0 +1,15 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        {% for part in page.url | split: '/' %}
+        {% if part != '' %}
+        {% assign url = url | append: '/' | append: part %}
+        {% assign title = part | replace: '-', ' ' | capitalize %}
+        {% if forloop.last %}
+        <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
+        {% else %}
+        <li class="breadcrumb-item"><a href="{{ url }}">{{ title }}</a></li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ol>
+</nav>

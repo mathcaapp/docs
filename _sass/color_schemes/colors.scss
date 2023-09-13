@@ -1,0 +1,43 @@
+// Define BLACK, WHITE and GRAY colors
+$black-color: #393939;
+$black50-color: rgba(0, 0, 0, 0.54);
+$white-color: #FFFFFF;
+$grey-color: #CCCCCC;
+$grey-light-color: #8F8F8F;
+$grey-dark-color: #595959;
+
+// Define TEXT colors
+$text-light-color: #393939;
+$text-dark-color: #CCCCCC;
+
+// Define MAIN colors
+$main-color: #FFA932;
+$main-dark-color: #c77b00;
+$main-light-color: #ffdc65;
+
+// Define CONTRAST colors
+$contrast-color: #21952b;
+$on-contrast-color: $white-color;
+$contrast-light-color: #5cc759;
+$on-contrast-light-color: $white-color;
+$contrast-dark-color: #006600;
+$on-contrast-dark-color: $white-color;
+
+// Define ACCENT colors
+$accent-color: #ce3b47;
+$on-accent-color: $white-color;
+$accent-light-color: #ff6e72;
+$on-accent-light-color: $white-color;
+$accent-dark-color: #970020;
+$on-accent-dark-color: $white-color;
+
+// Define OTHER colors
+$light-blue-color: #7fc2f1;
+$dark-blue-color: #2c76a9;
+
+// Define BACKGROUND colors
+$background-light-color: #feefd9;
+$background-alternative-light-color: $white-color;
+$background-dark-color: #393939;
+$background-alternative-dark-color: #181818;
+$snackbar-error-color: #e53935;

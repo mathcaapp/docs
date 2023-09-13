@@ -1,0 +1,100 @@
+@import "../color_schemes/colors";
+
+// Change language color
+.language-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: $sp-2 0;
+  margin: 0;
+}
+
+.language-list-item {
+  margin: 0 $sp-2 0 0;
+  
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.language-list-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba($main-color, 0.3);
+  color: $grey-dk-100;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.language-list-link:hover {
+  background-color: $main-color;
+}
+
+.language-list-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.language-list-link:active {
+  transform: translateY(1px);
+}
+
+
+// MathCA Website button
+
+.site-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 2px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: $contrast-color;
+  color: $on-contrast-color;
+  border: 2px solid $contrast-dark-color;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  height: 40px;
+}
+
+.site-button:hover {
+  background-color: $contrast-dark-color;
+
+}
+
+.site-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.site-button:active {
+  transform: translateY(1px);
+}
+
+// Dark theme button
+
+#theme-toggle_switch-parent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#theme-toggle-switch {  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

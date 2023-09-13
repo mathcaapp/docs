@@ -1,0 +1,18 @@
+@import "./color_schemes/dark";
+
+@import "colors";
+
+$body-background-color:$background-dark-color;
+$body-heading-color: $main-dark-color ;
+$body-text-color: $text-dark-color ;
+$link-color: $contrast-light-color;
+$nav-child-link-color: $contrast-color ;
+$sidebar-color: $background-alternative-dark-color ;
+$base-button-color: $contrast-dark-color ;
+$btn-primary-color: $contrast-color ;
+$code-background-color: $background-alternative-light-color  ;
+$feedback-color: darken($sidebar-color, 3%) ;
+$table-background-color: $white ;
+$search-background-color: $white ;
+$search-result-preview-color: $grey-dk-000 ;
+

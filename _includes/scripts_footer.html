@@ -1,0 +1,38 @@
+<script>
+    var toggleSwitch = document.getElementById("theme-toggle");
+
+    toggleSwitch.addEventListener("change", function () {
+        if (this.checked) {
+            var theme = "dark-theme";
+        } else {
+            var theme = "light-theme";
+        }
+        jtd.setTheme(theme);
+    });
+</script>
+
+<!--<script>
+    var toggleSwitch = document.getElementById("toggle-switch");
+
+    toggleSwitch.addEventListener("change", function () {
+        if (this.checked) {
+            jtd.setTheme("theme-dark")
+        } else {
+            jtd.setTheme("theme-light")
+        }
+    });
+</script>
+
+<script>
+    function toggleTheme() {
+        /*var theme = document.getElementById('theme');
+        if (theme.getAttribute('href') == '/assets/css/light-theme.css') {
+          theme.setAttribute('href', '/assets/css/dark-theme.css');
+        } else {
+          theme.setAttribute('href', '/assets/css/dark-theme.css');
+        }*/
+        jtd.setTheme("dark-theme")
+
+
+    }
+</script>-->
